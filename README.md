@@ -31,7 +31,7 @@ TriSakay leverages the following technologies for its development:
   **as the Local Database:** For local data storage needs, TriSakay relies on SQLite, a lightweight, embedded database system. SQLite is ideal for quick data access, crucial for the responsiveness of a ride-booking service.
 
 - ![Flutter Badge](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-  **for Cross-Platform Compatibility:** TriSakay is built using Flutter, a framework known for its cross-platform compatibility. With a single codebase, the app is designed to run on Android platforms.
+  **for Cross-Platform Compatibility:** TriSakay is built using Flutter, a framework known for its cross-platform compatibility. With a single codebase, the app is designed to run on ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white) platforms.
 
 - ![Dart Badge](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
   **for Modern Syntax and AOT Compilation Support:** The project utilizes Dart as its programming language, offering a modern syntax and supporting Ahead-of-Time (AOT) compilation for efficient execution and improved performance.
@@ -108,7 +108,7 @@ This Python script implements a console-based application for a transportation s
 
 - ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)   
 - ![MySql](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-- `mysql-connector` library (install using `pip install mysql-connector-python`)
+- `mysql-connector` library run ![windowsterminal](https://img.shields.io/badge/windows%20terminal-4D4D4D?style=for-the-badge&logo=windows%20terminal&logoColor=white)   and install using `pip install mysql-connector-python`
 
 ## Setup
 
@@ -136,3 +136,5 @@ If you'd like to contribute to the TriSakay project, please follow these steps:
 4. Submit a pull request, providing a clear description of your changes.
 
 We welcome and appreciate contributions from the community!
+
+![SQLite Badge](https://img.shields.io/badge/Sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) ![Flutter Badge](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) ![Dart Badge](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)  ![Android Studio Logo](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white) ![VsCode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white) ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue) ![MySql](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white) ![Pycharm](https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white) ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
