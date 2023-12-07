@@ -3,7 +3,6 @@
 <div align="center">
   <img src="https://github.com/mikaebora/TriSakay/assets/129576196/f6efbab9-ed9e-4121-a627-826a172872ac" alt="TriSakay Logo">
 </div>
-
 <p align="center">
   <img src="https://media.giphy.com/media/Wffwsgh6FBoejlFC34/giphy.gif" alt="Alt Text">
 </p>
