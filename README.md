@@ -4,7 +4,7 @@
   <img src="https://github.com/mikaebora/TriSakay/assets/129576196/f6efbab9-ed9e-4121-a627-826a172872ac" alt="TriSakay Logo">
 </div>
 
-TriSakay is a ride-booking service aimed at providing a convenient and accessible transportation solution. The project aligns with Sustainable Development Goal 11 (SDG 11) - Sustainable Cities and Communities, contributing to the development of sustainable urban areas.
+TriSakay is a ride-booking service aimed at providing a convenient and accessible transportation solution. The project aligns with Sustainable Development Goal 11 - Sustainable Cities and Communities, contributing to the development of sustainable urban areas.
 
 ## Technology Stack
 
