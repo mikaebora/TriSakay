@@ -6,7 +6,7 @@ TriSakay is a ride-booking service aimed at providing a convenient and accessibl
 
 TriSakay leverages the following technologies for its development:
 
-- **Flutter for Cross-Platform Compatibility:** TriSakay is built using Flutter, a framework known for its cross-platform compatibility. With a single codebase, the app is designed to run seamlessly on both Android and iOS platforms.
+- **Flutter for Cross-Platform Compatibility:** TriSakay is built using Flutter, a framework known for its cross-platform compatibility. With a single codebase, the app is designed to run on Android platforms.
 
 - **Dart for Modern Syntax and AOT Compilation Support:** The project utilizes Dart as its programming language, offering a modern syntax and supporting Ahead-of-Time (AOT) compilation for efficient execution and improved performance.
 
