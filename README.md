@@ -27,11 +27,15 @@ Sustainable Development Goal 11 focuses on making cities inclusive, safe, resili
 
 TriSakay leverages the following technologies for its development:
 
-- **Flutter for Cross-Platform Compatibility:** TriSakay is built using Flutter, a framework known for its cross-platform compatibility. With a single codebase, the app is designed to run on Android platforms.
+- ![SQLite Badge](https://img.shields.io/badge/Sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+  **as the Local Database:** For local data storage needs, TriSakay relies on SQLite, a lightweight, embedded database system. SQLite is ideal for quick data access, crucial for the responsiveness of a ride-booking service.
 
-- **Dart for Modern Syntax and AOT Compilation Support:** The project utilizes Dart as its programming language, offering a modern syntax and supporting Ahead-of-Time (AOT) compilation for efficient execution and improved performance.
+- ![Flutter Badge](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+  **for Cross-Platform Compatibility:** TriSakay is built using Flutter, a framework known for its cross-platform compatibility. With a single codebase, the app is designed to run on Android platforms.
 
-- **SQLite as the Local Database:** For local data storage needs, TriSakay relies on SQLite, a lightweight, embedded database system. SQLite is ideal for quick data access, crucial for the responsiveness of a ride-booking service.
+- ![Dart Badge](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+  **for Modern Syntax and AOT Compilation Support:** The project utilizes Dart as its programming language, offering a modern syntax and supporting Ahead-of-Time (AOT) compilation for efficient execution and improved performance.
+
 
 ## Development Features
 
@@ -46,7 +50,8 @@ To get started with TriSakay development, follow these steps:
 1. Clone the repository.
 2. Install Flutter and Dart.
 3. Run `flutter pub get` to install dependencies.
-4. Launch the app using Android Studio on your preferred emulator or device.
+4. Launch the app using ![Android Studio Logo](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
+ on your preferred emulator or device.
 
 
 ## Usage
