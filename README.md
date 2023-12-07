@@ -10,6 +10,17 @@
 
 TriSakay is a ride-booking service aimed at providing a convenient and accessible transportation solution. The project aligns with Sustainable Development Goal 11 - Sustainable Cities and Communities, contributing to the development of sustainable urban areas.
 
+## TriSakay and SDG 11
+
+Sustainable Development Goal 11 focuses on making cities inclusive, safe, resilient, and sustainable. TriSakay plays a crucial role in achieving this goal by:
+
+- **Reducing Carbon Footprint:** Tricycles are eco-friendly modes of transportation, contributing to a cleaner and greener environment.
+
+- **Enhancing Accessibility:** TriSakay ensures that transportation is readily accessible to all members of the community, promoting inclusivity in urban areas.
+
+- **Efficient Urban Mobility:** By streamlining tricycle rides, TriSakay contributes to efficient urban mobility, reducing traffic congestion and promoting sustainable transportation alternatives.
+
+
 ## Technology Stack
 
 TriSakay leverages the following technologies for its development:
@@ -35,15 +46,6 @@ To get started with TriSakay development, follow these steps:
 3. Run `flutter pub get` to install dependencies.
 4. Launch the app using Android Studio on your preferred emulator or device.
 
-## TriSakay and SDG 11
-
-Sustainable Development Goal 11 focuses on making cities inclusive, safe, resilient, and sustainable. TriSakay plays a crucial role in achieving this goal by:
-
-- **Reducing Carbon Footprint:** Tricycles are eco-friendly modes of transportation, contributing to a cleaner and greener environment.
-
-- **Enhancing Accessibility:** TriSakay ensures that transportation is readily accessible to all members of the community, promoting inclusivity in urban areas.
-
-- **Efficient Urban Mobility:** By streamlining tricycle rides, TriSakay contributes to efficient urban mobility, reducing traffic congestion and promoting sustainable transportation alternatives.
 
 ## Usage
 
