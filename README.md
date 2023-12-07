@@ -5,12 +5,12 @@
 </div>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/Wffwsgh6FBoejlFC34/giphy.gif" alt="BookNow" style="width: 150px; height: auto;">
+  <img src="https://user-images.githubusercontent.com/74038190/216120981-b9507c36-0e04-4469-8e27-c99271b45ba5.png" alt="BookNow" style="width: 150px; height: auto;">
 </p>
 
 
 
-TriSakay is a ride-booking service aimed at providing a convenient and accessible transportation solution. The project aligns with Sustainable Development Goal 11 - Sustainable Cities and Communities, contributing to the development of sustainable urban areas.
+TriSakay is a ride-booking service aimed at providing a convenient and accessible transportation solution. The project aligns with Sustainable Development Goal 11 - Sustainable Cities and Communities, contributing to the development of sustainable urban areas. It incorporates key object-oriented programming principles to enhance both its structure and functionality.
 
 ## TriSakay and SDG 11
 
@@ -53,10 +53,78 @@ To get started with TriSakay development, follow these steps:
 4. Launch the app using ![Android Studio Logo](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
  on your preferred emulator or device.
 
+## IDE/Compiler
+
+We recommend using ![VsCode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white) as the integrated development environment (IDE) for running and managing the TrikeSakay.
+
 
 ## Usage
 
 Provide detailed information on how users can interact with your TriSakay app when using Android Studio for emulation. Include examples and scenarios to demonstrate the functionality and features of the application.
+
+
+# TrikeSakay Console Version
+
+This Python script implements a console-based application for a transportation service called "TrikeSakay." The script leverages MySQL as the backend database to manage user data, bookings, and interactions between passengers and drivers. The key functionalities include user sign-up, login, booking a ride, and additional options such as updating user information, deleting users, and viewing bookings for drivers.
+
+## Features
+
+- **User Management:**
+  - Sign up as a driver or passenger.
+  - Log in with existing credentials.
+
+- **Booking System:**
+  - Passengers can book rides with available drivers.
+  - Drivers can view and accept pending bookings.
+
+- **Additional Options:**
+  - Update user information (user type, password).
+  - Delete user accounts.
+  - View bookings for drivers.
+
+## Usage
+
+1. **Sign Up:**
+    - Run the script and choose the "Sign Up" option.
+    - Enter a unique username and password.
+    - Select user type: Driver or Passenger.
+
+2. **Log In:**
+    - Log in with your username and password.
+    - Access features based on your user type.
+
+3. **Booking a Ride:**
+    - Passengers can view available drivers and book rides.
+
+4. **Additional Options:**
+    - Update user information (user type, password).
+    - Delete user accounts.
+    - View bookings for drivers.
+
+5. **Exit:**
+    - Choose the "Exit" option to end the application.
+
+## Requirements
+
+- ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)   
+- ![MySql](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+- `mysql-connector` library (install using `pip install mysql-connector-python`)
+
+## Setup
+
+1. Ensure you have Python and MySQL installed on your system.
+2. Install the required library: `pip install mysql-connector-python`
+3. Set up a MySQL database named `trikeSakay` with appropriate user credentials (refer to `DATABASE_CONFIG` in the script).
+
+## IDE/Compiler
+
+We recommend using ![Pycharm](https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white) as the integrated development environment (IDE) for running and managing the TrikeSakay console application.
+
+## Run
+
+Run the script using the command:
+
+`python trikeSakay.py`
 
 ## Contributing
 
