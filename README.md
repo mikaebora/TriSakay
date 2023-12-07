@@ -25,11 +25,21 @@ To get started with TriSakay development, follow these steps:
 1. Clone the repository.
 2. Install Flutter and Dart.
 3. Run `flutter pub get` to install dependencies.
-4. Launch the app on your preferred emulator or device using `flutter run`.
+4. Launch the app using Android Studio on your preferred emulator or device.
+
+## TriSakay and SDG 11
+
+Sustainable Development Goal 11 focuses on making cities inclusive, safe, resilient, and sustainable. TriSakay plays a crucial role in achieving this goal by:
+
+- **Reducing Carbon Footprint:** Tricycles are eco-friendly modes of transportation, contributing to a cleaner and greener environment.
+
+- **Enhancing Accessibility:** TriSakay ensures that transportation is readily accessible to all members of the community, promoting inclusivity in urban areas.
+
+- **Efficient Urban Mobility:** By streamlining tricycle rides, TriSakay contributes to efficient urban mobility, reducing traffic congestion and promoting sustainable transportation alternatives.
 
 ## Usage
 
-Provide detailed information on how users can interact with your TriSakay app. Include examples and scenarios to demonstrate the functionality and features of the application.
+Provide detailed information on how users can interact with your TriSakay app when using Android Studio for emulation. Include examples and scenarios to demonstrate the functionality and features of the application.
 
 ## Contributing
 
