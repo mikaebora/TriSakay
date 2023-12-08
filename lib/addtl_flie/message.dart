@@ -14,13 +14,13 @@ class Message extends StatelessWidget {
             decoration: const BoxDecoration(
               color: Color.fromARGB(255, 0, 83, 110),
               borderRadius: BorderRadius.vertical(
-                bottom: Radius.circular(30), // Set the bottom radius as needed
+                bottom: Radius.circular(30), 
               ),
             ),
           ),
           const Positioned(
-            top:90.0, // Adjust the top position as needed
-            left: 60.0, // Adjust the left position as needed
+            top:90.0, 
+            left: 60.0, 
             child: Text(
               'MESSAGES',
               style: TextStyle(fontSize: 21, color: Colors.white, fontWeight: FontWeight.w700),
