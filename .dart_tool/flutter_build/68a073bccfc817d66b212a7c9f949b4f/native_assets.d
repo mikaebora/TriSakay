@@ -1,1 +1,0 @@
- C:\\Users\\kriel\\Documents\\Trisakay_app\\trisakay_app\\.dart_tool\\flutter_build\\68a073bccfc817d66b212a7c9f949b4f\\native_assets.yaml: 
