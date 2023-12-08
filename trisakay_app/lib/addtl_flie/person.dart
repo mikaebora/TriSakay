@@ -7,27 +7,27 @@ class Person extends StatelessWidget {
     return Stack(
       children: [
         Container(
-          color: const Color.fromARGB(255, 0, 83, 110), // Set the background color to blue
+          color: const Color.fromARGB(255, 0, 83, 110), 
         ),
          // logo
           Positioned(
-            top: 25.0, // Adjust the top position as needed
-            right: 30.0, // Adjust the right position as needed
+            top: 25.0, 
+            right: 30.0, 
             child: Container(
-              width: 100.0, // Set the width of the picture
-              height: 100.0, // Set the height of the picture
+              width: 100.0, 
+              height: 100.0, 
               decoration: const BoxDecoration(
-                shape: BoxShape.circle, // Set the shape as circle or any other shape
+                shape: BoxShape.circle, 
                 image: DecorationImage(
-                  image: AssetImage('lib/images/Trisakaylogo.png'), // Replace with the actual image path
+                  image: AssetImage('lib/images/Trisakaylogo.png'), 
                   fit: BoxFit.cover,
                 ),
               ),
             ),
           ),
         Positioned(
-          top: 60.0, // Adjust the top position as needed
-          left: 45.0, // Adjust the left position as needed
+          top: 60.0, 
+          left: 45.0, 
           child: Text(
             'PROFILE',
             style: GoogleFonts.poppins(
@@ -40,48 +40,48 @@ class Person extends StatelessWidget {
         Align(
           alignment: Alignment.bottomCenter,
           child: FractionallySizedBox(
-            heightFactor: 0.60, // Adjust the fraction as needed
-            widthFactor: 1.0, // Takes full width
+            heightFactor: 0.60, 
+            widthFactor: 1.0, 
             child: Container(
               decoration: const BoxDecoration(
-                color: Colors.white, // Set the background color to white
+                color: Colors.white,
                 borderRadius: BorderRadius.only(
-                  topLeft: Radius.circular(20.0), // Adjust the radius as needed
-                  topRight: Radius.circular(20.0), // Adjust the radius as needed
+                  topLeft: Radius.circular(20.0), 
+                  topRight: Radius.circular(20.0), 
                 ),
               ),
             ),
           ),
         ),
-        // Add other widgets on top of the blue and white backgrounds as needed
+        
         Positioned(
-          top: 80, // Adjust the top position as needed
-          right: 150, // Adjust the right position as needed
+          top: 80, 
+          right: 150, 
           child: Container(
-            width: 110.0, // Set the width of the picture
-            height: 110.0, // Set the height of the picture
+            width: 110.0, 
+            height: 110.0, 
             decoration: const BoxDecoration(
-              shape: BoxShape.circle, // Set the shape as circle or any other shape
-              color: Color(0xFFDDDDDD), // Set the background color of the circle
+              shape: BoxShape.circle,
+              color: Color(0xFFDDDDDD), 
             ),
             child: const Icon(
               Icons.person,
-              size: 60.0, // Set the size of the person icon as needed
-              color: Color.fromARGB(255, 0, 83, 110), // Set the color of the person icon
+              size: 60.0, 
+              color: Color.fromARGB(255, 0, 83, 110), 
             ),
           ),
         ),
         Positioned(
-            top: 300, // Adjust the top position as needed
-            left: 30, // Adjust the left position as needed
+            top: 300, 
+            left: 30, 
             child: Text(
               'Username',
               style: GoogleFonts.poppins(fontSize: 20, color: Colors.black, fontWeight: FontWeight.w600),
             ),
           ),
           Positioned(
-            top: 400, // Adjust the top position as needed
-            left: 30, // Adjust the left position as needed
+            top: 400, 
+            left: 30, 
             child: Text(
               'Phone Number',
               style: GoogleFonts.poppins(fontSize: 20, color: Colors.black, fontWeight: FontWeight.w600),
