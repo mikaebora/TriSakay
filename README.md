@@ -10,7 +10,6 @@
 
 
 
-
 TriSakay is a ride-booking service aimed at providing a convenient and accessible transportation solution. The project aligns with Sustainable Development Goal 11 - Sustainable Cities and Communities, contributing to the development of sustainable urban areas. It incorporates key object-oriented programming principles to enhance both its structure and functionality.
 
 ### TriSakay and SDG 11:
