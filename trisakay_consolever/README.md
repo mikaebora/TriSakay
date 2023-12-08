@@ -57,7 +57,13 @@ We recommend using ![Pycharm](https://img.shields.io/badge/PyCharm-000000.svg?&s
 
 ### Run:
 
-Run the script using the command:
+1. Open CMD.
+  
+2. Use the cd command to navigate to the directory where your Python project is located.
+   
+`cd path\to\your\project`
+
+3.Run your Python script using the python command followed by the script's name.
 
 `python trisakayconsole.py`
 
