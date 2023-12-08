@@ -59,7 +59,7 @@ We recommend using ![Pycharm](https://img.shields.io/badge/PyCharm-000000.svg?&s
 
 Run the script using the command:
 
-`python trikeSakay.py`
+`python trisakayconsole.py`
 
 ### Contributing:
 
