@@ -1,1 +1,0 @@
- C:\\Users\\kriel\\Documents\\with\ dashbboard\ -\ (backup2)\\trisakay_app\\.dart_tool\\flutter_build\\31ec88ab4d127cf86395e4e386713d9e\\native_assets.yaml: 
