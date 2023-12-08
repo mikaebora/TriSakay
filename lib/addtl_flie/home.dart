@@ -12,7 +12,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   TextEditingController locationController = TextEditingController();
   TextEditingController anotherController = TextEditingController();
-  double totalPrice = 0.0; // Initialize to 0.0
+  double totalPrice = 0.0; 
 
   @override
   Widget build(BuildContext context) {
@@ -25,30 +25,30 @@ class _HomeState extends State<Home> {
             decoration: const BoxDecoration(
               color: Color.fromARGB(255, 0, 83, 110),
               borderRadius: BorderRadius.vertical(
-                bottom: Radius.circular(30), // Set the bottom radius as needed
+                bottom: Radius.circular(30), 
               ),
             ),
           ),
 
           // logo
           Positioned(
-            top: 25.0, // Adjust the top position as needed
-            right: 30.0, // Adjust the right position as needed
+            top: 25.0,
+            right: 30.0, 
             child: Container(
-              width: 100.0, // Set the width of the picture
-              height: 100.0, // Set the height of the picture
+              width: 100.0, 
+              height: 100.0, 
               decoration: const BoxDecoration(
-                shape: BoxShape.circle, // Set the shape as circle or any other shape
+                shape: BoxShape.circle, 
                 image: DecorationImage(
-                  image: AssetImage('lib/images/Trisakaylogo.png'), // Replace with the actual image path
+                  image: AssetImage('lib/images/Trisakaylogo.png'), 
                   fit: BoxFit.cover,
                 ),
               ),
             ),
           ),
           Positioned(
-            top: 60.0, // Adjust the top position as needed
-            left: 45.0, // Adjust the left position as needed
+            top: 60.0, 
+            left: 45.0, 
             child: Text(
               'WELCOME TO',
               style: GoogleFonts.poppins(fontSize: 21, color: Colors.white, fontWeight: FontWeight.w700,),
@@ -61,17 +61,17 @@ class _HomeState extends State<Home> {
             ),
           ),
           Positioned(
-            top: 150, // Adjust the top position as needed
-            left: 30, // Adjust the left position as needed
+            top: 150, 
+            left: 30, 
             child: Text(
               'Set your location',
               style: GoogleFonts.poppins(fontSize: 20, color: Colors.black, fontWeight: FontWeight.w600),
             ),
           ),
           Positioned(
-            top: 200, // Adjust the top position as needed
-            left: 16.0, // Adjust the left position as needed
-            right: 16.0, // Adjust the right position as needed
+            top: 200, 
+            left: 16.0, 
+            right: 16.0, 
             child: Container(
               decoration: BoxDecoration(
                 color: const Color(0xFFDDDDDD),
@@ -82,9 +82,9 @@ class _HomeState extends State<Home> {
                 child: TextField(
                   controller: locationController,
                   onChanged: (value) {
-                    // Update the total price only if the text field is not empty
+                   
                     setState(() {
-                      // Add your logic here if needed for the "Set your location" TextField
+                     
                     });
                   },
                   decoration: const InputDecoration(
@@ -97,8 +97,8 @@ class _HomeState extends State<Home> {
             ),
           ),
           Positioned(
-            bottom: 21.0, // Adjust the bottom position as needed
-            left: 16.0, // Adjust the left position as needed
+            bottom: 21.0, 
+            left: 16.0, 
             child: Container(
               decoration: BoxDecoration(
                 color: const Color(0xFFDDDDDD),
@@ -114,14 +114,14 @@ class _HomeState extends State<Home> {
             ),
           ),
           Positioned(
-            bottom: 16.0, // Adjust the bottom position as needed
-            right: 25, // Adjust the right position as needed
+            bottom: 16.0, 
+            right: 25, 
             child: ElevatedButton(
               onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context) => const Success()));
               },
               style: ElevatedButton.styleFrom(
-              backgroundColor: const Color.fromARGB(255, 0, 83, 110), // Change this color to the desired color
+              backgroundColor: const Color.fromARGB(255, 0, 83, 110), 
             ),
               child: Text('Ride Now!',
               style: GoogleFonts.poppins(
@@ -130,9 +130,9 @@ class _HomeState extends State<Home> {
             ),
           ),
           Positioned(
-            top: 270, // Adjust the top position as needed
-            left: 16.0, // Adjust the left position as needed
-            right: 16.0, // Adjust the right position as needed
+            top: 270, 
+            left: 16.0, 
+            right: 16.0, 
             child: Container(
               decoration: BoxDecoration(
                 color: const Color(0xFFDDDDDD),
@@ -143,7 +143,7 @@ class _HomeState extends State<Home> {
                 child: TextField(
                   controller: anotherController,
                   onChanged: (value) {
-                    // Update the total price only if the text field is not empty
+                    
                     setState(() {
                       totalPrice = value.isEmpty ? 0.0 : 10.0;
                     });
