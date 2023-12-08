@@ -29,52 +29,50 @@ class intropage3State extends State<intropage3> {
             ),
           ) ,
           Positioned(
-            top: 380, // Adjust the top position of the text
+            top: 380, 
             child: Text(
               'Instant Ride Requests',
               style: GoogleFonts.poppins(
                 fontSize: 21,
                 fontWeight: FontWeight.w700,
-                color: Colors.black, // Set a contrasting text color
+                color: Colors.black, 
               ),
             ),
           ),
           Positioned(
-            top: 450, // Adjust the top position of the text
+            top: 450, 
             child: Text(
               'Forget about carrying cash',
-              //'cash pay conveniently',
-              //'through the app.',
+              
               style: GoogleFonts.poppins(
                 fontSize: 20,
                 fontWeight: FontWeight.w400,
-                color: Colors.black, // Set a contrasting text color
+                color: Colors.black, 
               ),
             ),
           ),
           Positioned(
-            top: 470,// Adjust the top position of the text
+            top: 470,
             child: Text(
-              //'Forget about carrying',
+             
               'pay conveniently through',
-              //' the app.',
+             
               style: GoogleFonts.poppins(
                 fontSize: 20,
                 fontWeight: FontWeight.w400,
-                color: Colors.black, // Set a contrasting text color
+                color: Colors.black, 
               ),
             ),
           ),
           Positioned(
-            top: 490, // Adjust the top position of the text
+            top: 490, 
             child: Text(
-              //'Forget about carrying',
-              //'cash pay conveniently',
+             
               'the app.',
               style: GoogleFonts.poppins(
                 fontSize: 20,
                 fontWeight: FontWeight.w400,
-                color: Colors.black, // Set a contrasting text color
+                color: Colors.black, 
               ),
             ),
           ),
