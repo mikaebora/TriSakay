@@ -13,12 +13,12 @@ class intropage1State extends State<intropage1> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white, // Set a background color for better visibility
+      backgroundColor: Colors.white, 
       body: Stack(
         alignment: Alignment.topCenter,
         children: [
           Positioned(
-            top: 50, // Adjust the top position of the Lottie animation
+            top: 50, 
             child: Container(
               width: 300,
               height: 300,
@@ -29,52 +29,50 @@ class intropage1State extends State<intropage1> {
             ),
           ),
           Positioned(
-            top: 380, // Adjust the top position of the text
+            top: 380, 
             child: Text(
               'Instant Ride Requests',
               style: GoogleFonts.poppins(
                 fontSize: 21,
                 fontWeight: FontWeight.w700,
-                color: Colors.black, // Set a contrasting text color
+                color: Colors.black, 
               ),
             ),
           ),
           Positioned(
-            top: 450, // Adjust the top position of the text
+            top: 450, 
             child: Text(
               'Effortlessly book a tricycle',
-              //' with just a few taps on'
-              //'       your phone.',
+              
               style: GoogleFonts.poppins(
                 fontSize: 20,
                 fontWeight: FontWeight.w400,
-                color: Colors.black, // Set a contrasting text color
+                color: Colors.black, 
               ),
             ),
           ),
           Positioned(
-            top: 470, // Adjust the top position of the text
+            top: 470, 
             child: Text(
-              //'Effortlessly book a tricycle',
+              
               ' with just a few taps on',
-              //'       your phone.',
+             
               style: GoogleFonts.poppins(
                 fontSize: 20,
                 fontWeight: FontWeight.w400,
-                color: Colors.black, // Set a contrasting text color
+                color: Colors.black, 
               ),
             ),
           ),
           Positioned(
-            top: 490, // Adjust the top position of the text
+            top: 490, 
             child: Text(
-              //'Effortlessly book a tricycle',
-              //' with just a few taps on'
+              
               'your phone.',
               style: GoogleFonts.poppins(
                 fontSize: 20,
                 fontWeight: FontWeight.w400,
-                color: Colors.black, // Set a contrasting text color
+                color: Colors.black, 
               ),
             ),
           ),
