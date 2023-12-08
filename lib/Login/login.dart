@@ -29,15 +29,15 @@ class LoginPage extends StatelessWidget {
             // logo
               Image.asset(
                 alignment: const Alignment(0, -2),
-                'lib/images/Trisakaylogo.png', // Replace with the actual path to your logo
-                width: 300, // Adjust the width of the logo
-                height: 300, // Adjust the height of the logo
+                'lib/images/Trisakaylogo.png', 
+                width: 300, 
+                height: 300, 
               ),
             
             
             // log in text
             Transform.translate(
-                  offset: const Offset(-120, -110), // Adjust the vertical offset to move it upward
+                  offset: const Offset(-120, -110), 
                   child: Align(
                     alignment: Alignment.center,
                     child: Text(
@@ -100,7 +100,7 @@ class LoginPage extends StatelessWidget {
             // creating account
 
           Transform.translate(
-                  offset: const Offset(-50, 13), // Adjust the vertical offset to move it upward
+                  offset: const Offset(-50, 13), 
                   child: Align(
                     alignment: Alignment.center,
                     child: Text(
@@ -117,7 +117,7 @@ class LoginPage extends StatelessWidget {
             // sign up text bttn
 
           Transform.translate(
-                  offset: const Offset(70, -20), // Adjust the vertical offset to move it upward
+                  offset: const Offset(70, -20), 
                   child: Align(
                     alignment: Alignment.center,
                     child: TextButton(
