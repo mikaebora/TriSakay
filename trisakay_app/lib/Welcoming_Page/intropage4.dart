@@ -14,19 +14,18 @@ class IntroPage4 extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          // Logo Widget
+          
           Image.asset(
-            'lib/images/Trisakaylogo.png', // Replace with the actual path to your logo
-            width: 300, // Adjust the width of the logo
-            height: 300, // Adjust the height of the logo
+            'lib/images/Trisakaylogo.png', 
+            width: 300, 
+            height: 300, 
           ),
 
-          SizedBox(height: 20), // Add some space between the logo and the button
-
-          // Elevated Button
+          SizedBox(height: 20), 
+         
           ElevatedButton(
             onPressed: () {
-              // go to login page
+              
               Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),),);
             },
             style: ElevatedButton.styleFrom(
