@@ -124,10 +124,16 @@ We recommend using ![Pycharm](https://img.shields.io/badge/PyCharm-000000.svg?&s
 
 ### Run:
 
-Run the script using the command:
+- Open CMD.
+  
+- Use the cd command to navigate to the directory where your Python project is located.
+   
+   `cd path\to\your\project`
 
-`python trikeSakay.py`
+- Run your Python script using the python command followed by the script's name.
 
+   `python trisakayconsole.py`
+  
 ### Contributing:
 
 If you'd like to contribute to the TriSakay project, please follow these steps:
