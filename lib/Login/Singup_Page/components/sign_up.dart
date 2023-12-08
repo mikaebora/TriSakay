@@ -13,7 +13,7 @@ class SignUP extends StatelessWidget {
         child: SingleChildScrollView(
           child: Stack(
             children: [
-              // Blue background
+             
               Column(
                 mainAxisAlignment: MainAxisAlignment.end,
                 crossAxisAlignment: CrossAxisAlignment.end,
@@ -29,8 +29,8 @@ class SignUP extends StatelessWidget {
 
               // Create account text
               Positioned(
-          top: 70, // Adjust the top position as needed
-          left: 60, // Adjust the left position as needed
+          top: 70, 
+          left: 60, 
           child: Text(
             'CREATE ACCOUNT',
             style: GoogleFonts.poppins(
@@ -90,12 +90,12 @@ class SignUP extends StatelessWidget {
               Positioned(
                 top: 600,
                 left: 100,
-                right: 100, // Center horizontally
+                right: 100, 
                 child: SizedBox(
-                  width: 150, // Adjust the width here
+                  width: 150, 
                   child: ElevatedButton(
                     onPressed: () {
-                      // Add your sign-up logic here
+                      
                     },
                     style: ButtonStyle(
                       backgroundColor: MaterialStateProperty.all(
