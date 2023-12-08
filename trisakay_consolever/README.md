@@ -1,6 +1,6 @@
-# TrikSakay Console Version:
+# TriSakay Console Version:
 
-This Python script implements a console-based application for a transportation service called "TrikeSakay." The script leverages MySQL as the backend database to manage user data, bookings, and interactions between passengers and drivers. The key functionalities include user sign-up, login, booking a ride, and additional options such as updating user information, deleting users, and viewing bookings for drivers.
+This Python script implements a console-based application for a transportation service called "TriSakay." The script leverages MySQL as the backend database to manage user data, bookings, and interactions between passengers and drivers. The key functionalities include user sign-up, login, booking a ride, and additional options such as updating user information, deleting users, and viewing bookings for drivers.
 
 ### Features:
 
