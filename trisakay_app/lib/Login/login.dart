@@ -81,9 +81,9 @@ class LoginPage extends StatelessWidget {
                   ),
                 ),
 
-            //forgot password?
             
-            // remember me
+            
+            
             
             // sign in button
             Transform.translate(
